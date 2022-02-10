@@ -32,7 +32,7 @@ int main () {
 
     for (i = 0; i < size; ++i) {
         if (kelas[i].persentase < 0.8) {
-            printf("Nama : %c", &kelas[i].nama);
+            printf("Nama : %s", &kelas[i].nama);
             printf("NIM  : %d", &kelas[i].nim);
         }
     }
